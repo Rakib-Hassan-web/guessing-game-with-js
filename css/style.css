@@ -55,10 +55,11 @@ h2 {
 
 .main2 {
 
-    width: 470px;
+    width: 520px;
     padding: 40px;
     border: 2px solid blue;
     border-radius: 20px;
+    display: none;
 }
 
 
@@ -111,6 +112,11 @@ h2 {
 .chance {
     margin: 0;
     font-size: 38px;
+}
+.fixed{
+      margin: 0;
+    font-size: 38px;
+    font-weight: 600;
 }
 /* --------------winner part---- */
 
