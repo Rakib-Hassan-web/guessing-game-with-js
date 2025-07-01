@@ -49,7 +49,7 @@ h2 {
     font-weight: 700;
 }
 
-    /* <!-- ---------------2nd player --> */
+/* <!-- ---------------2nd player --> */
 
 .main2 {
 
@@ -91,3 +91,17 @@ h2 {
 }
 
 /* --------------winner part---- */
+
+
+.winner{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winer_name {
+    font-size: 55px;
+    color: yellow;
+}
