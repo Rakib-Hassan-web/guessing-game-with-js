@@ -25,6 +25,7 @@ h2 {
 
 .error1 {
     font-size: 30px;
+    color: #0cff05;
 }
 
 
@@ -63,6 +64,7 @@ h2 {
 
 .error2 {
     font-size: 30px;
+    color: #0cff05;
 }
 
 
@@ -93,16 +95,22 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .bar {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border: 2px solid yellow;
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
   
+}
+.chance {
+    margin: 0;
+    font-size: 38px;
 }
 /* --------------winner part---- */
 
