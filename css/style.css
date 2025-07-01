@@ -124,7 +124,7 @@ h2 {
 .winner{
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     justify-content: center;
     align-items: center;
     display: none;
@@ -133,4 +133,5 @@ h2 {
 .winer_name {
     font-size: 55px;
     color: yellow;
+    text-align: center;
 }

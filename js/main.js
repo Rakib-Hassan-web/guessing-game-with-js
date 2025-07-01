@@ -26,23 +26,39 @@ let winer_name = document.querySelector('.winer_name')
 
 
 
+
+
+
+
+
+
+
+// ------------------player 1  works-----------
+
 let buttonOne = () => {
     if (input1.value == '') {
         error1.innerHTML = "kono number likhen"
     } else if (input1.value > 10 || input1.value < 0) {
         error1.innerHTML = " 0--10 er moddhe number likhen"
 
-    }
-    else{
+    } else {
 
-main1.style="display:none"
+        main1.style = "display:none"
 
-main2.style="display:block"
+        main2.style = "display:block"
 
 
     }
 
 }
+
+
+// ------------------player 2  works-----------
+
+let i = 0
+
+chance.innerHTML = i
+
 
 let buttonTWO = () => {
     if (input2.value == '') {
@@ -50,10 +66,21 @@ let buttonTWO = () => {
     } else if (input2.value > 10 || input2.value < 0) {
         error2.innerHTML = " 0--10 er moddhe number likhen"
 
-    }
-    else{
+    } else {
 
 
+        chance.innerHTML = ++i
+
+        if (input1.value == input2.value) {
+            main2.style = "display:none"
+            winner.style = "display:block"
+            winer_name.innerHTML = "SAKIB IS WINNER"
+
+        } else if (i > 5) {
+            main2.style = "display:none"
+            winner.style = "display:block"
+            winer_name.innerHTML = "RAKIB IS WINNER"
+        }
 
     }
 
