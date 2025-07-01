@@ -1,3 +1,49 @@
 body{
     background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
 }
+
+
+/* -------------1st pklayer---------- */
+.main1{
+
+    width: 400px;
+    padding:40px;
+    border: 2px solid blue;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.error1 {
+    font-size: 30px;
+}
+
+
+.input1{
+    padding: 20px;
+    border: none;
+    outline: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
