@@ -28,6 +28,18 @@ let winer_name =document.querySelector('.winer_name')
 
 
 
+let buttonOne =()=>{
+    if(input1.value==''){
+        error1.innerHTML="kono number likhen"
+    }
+
+    else if(input1.value>10 || input1.value<0){
+        error1.innerHTML=" 0--10 er moddhe number likhen"
+
+    }
+
+}
+
 
 
 
