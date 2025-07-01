@@ -1,23 +1,24 @@
-body{
+body {
     background: gray;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    
+
 }
 
 
 /* -------------1st pklayer---------- */
-.main1{
+.main1 {
 
-    width: 400px;
-    padding:40px;
+    width: 470px;
+    padding: 40px;
     border: 2px solid blue;
+    border-radius: 20px;
 }
 
-h2{
+h2 {
     font-size: 40px;
 }
 
@@ -26,24 +27,67 @@ h2{
 }
 
 
-.input1{
+.input1 {
     padding: 20px;
     border: none;
     outline: none;
-    
+    font-size: 20px;
+    background-color: #F4EBD3;
+    border-radius: 10px;
+    margin-right: 30px;
 }
 
 
+.button1 {
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #B33791;
+    border-radius: 10px;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+    /* <!-- ---------------2nd player --> */
+
+.main2 {
+
+    width: 470px;
+    padding: 40px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.error2 {
+    font-size: 30px;
+}
 
 
+.input2 {
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #F4EBD3;
+    border-radius: 10px;
+    margin-right: 30px;
+}
 
 
+.button2 {
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: #B33791;
+    border-radius: 10px;
+    margin-right: 30px;
+    font-weight: 700;
+}
 
-
-
-
-
-
-
-
-
+/* --------------winner part---- */
